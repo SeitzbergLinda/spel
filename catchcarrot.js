@@ -138,7 +138,7 @@ function collectStar (player, star) {
     star.kill();
 
     //  Add and update the score
-    score += 10;
+    score += 1;
     scoreText.text = 'Samlade morötter: ' + score;
 
 }
