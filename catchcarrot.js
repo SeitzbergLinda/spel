@@ -1,5 +1,5 @@
 ﻿
-var game = new Phaser.Game(1300, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+var game = new Phaser.Game(1200, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
 function preload() {
 
@@ -138,7 +138,7 @@ function collectStar (player, star) {
     star.kill();
 
     //  Add and update the score
-    score += 10;
+    score += 1;
     scoreText.text = 'Samlade morötter: ' + score;
 
 }
