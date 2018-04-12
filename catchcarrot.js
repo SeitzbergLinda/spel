@@ -85,7 +85,7 @@ function create() {
         star.body.bounce.y = 0.7 + Math.random() * 0.2;
     }
 
-    scoreText = game.add.text(16, 16, 'Morötter: 0', { fontSize: '32px', fill: '#FF8C00' });
+    scoreText = game.add.text(16, 16, 'Du får en poäng för varje morot. Samla alla morötter!', { fontSize: '32px', fill: '#FF8C00' });
 
     cursors = game.input.keyboard.createCursorKeys();
     
