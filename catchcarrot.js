@@ -86,6 +86,11 @@ function create() {
     }
 
     scoreText = game.add.text(16, 16, 'Morötter: 0', { fontSize: '32px', fill: '#FF8C00' });
+if (score == 18)
+        {
+            window.alert('You got it!!!!');
+            scoreText.text = 'Mycket bra jobbat ';
+        }
 
     cursors = game.input.keyboard.createCursorKeys();
     
@@ -140,5 +145,10 @@ function collectStar (player, star) {
     //  Add and update the score
     score += 1;
     scoreText.text = 'Samlade morötter: ' + score;
+if (score == 18)
+        {
+            window.alert('You got it!!!!');
+            scoreText.text = 'Mycket bra jobbat ';
+        }
 
 }
