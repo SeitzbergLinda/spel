@@ -142,8 +142,8 @@ function collectStar (player, star) {
     scoreText.text = 'Samlade morötter: ' + score;
 if (score == 18)
         {
-            window.alert('You got it!');
-            scoreText.text = 'Mycket bra jobbat ';
+            window.alert('Du klarade det! Grattis!');
+            scoreText.text = 'Mycket bra jobbat! Tack för att du spelade :) /Linda Seitzberg';
         }
 
 }
